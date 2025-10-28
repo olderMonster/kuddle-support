@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kuddle - Technical Support</title>
+    <title>Kuddle - 技术支持</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -36,7 +36,7 @@
             padding: 0 20px;
         }
         
-        /* Navigation Bar Styles */
+        /* 导航栏样式 */
         header {
             background: linear-gradient(135deg, var(--primary), var(--primary-light));
             color: var(--white);
@@ -84,7 +84,7 @@
             background-color: rgba(255, 255, 255, 0.2);
         }
         
-        /* Language Selector Styles */
+        /* 语言选择器样式 */
         .language-selector {
             position: relative;
             display: inline-block;
@@ -137,7 +137,7 @@
             display: block;
         }
         
-        /* Main Content Area */
+        /* 主要内容区域 */
         .hero {
             background: linear-gradient(rgba(106, 137, 204, 0.8), rgba(164, 180, 219, 0.8)), url('https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80');
             background-size: cover;
@@ -177,7 +177,7 @@
             box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
         }
         
-        /* Content Area Styles */
+        /* 内容区域样式 */
         .content-section {
             padding: 80px 0;
         }
@@ -275,7 +275,7 @@
             margin-bottom: 15px;
         }
         
-        /* Footer Styles */
+        /* 页脚样式 */
         footer {
             background-color: #2c3e50;
             color: var(--white);
@@ -339,7 +339,7 @@
             color: #bdc3c7;
         }
         
-        /* Responsive Design */
+        /* 响应式设计 */
         @media (max-width: 768px) {
             .navbar {
                 flex-direction: column;
@@ -361,7 +361,7 @@
     </style>
 </head>
 <body>
-    <!-- Navigation Bar -->
+    <!-- 导航栏 -->
     <header>
         <div class="container">
             <nav class="navbar">
@@ -370,21 +370,21 @@
                     <span>Kuddle</span>
                 </div>
                 <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                    <!-- <li><a href="terms.html">Terms of Service</a></li> -->
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#faq">常见问题</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                    <li><a href="zh/privacy.html">隐私政策</a></li>
+                    <!-- <li><a href="terms.html">用户协议</a></li> -->
                     <li>
                         <div class="language-selector">
                             <button class="language-btn">
                                 <i class="fas fa-globe"></i>
-                                English
+                                中文
                                 <i class="fas fa-chevron-down"></i>
                             </button>
                             <div class="language-dropdown">
-                                <a href="../index.html">中文</a>
-                                <a href="index.html">English</a>
+                                <a href="index.html">中文</a>
+                                <a href="en/index.html">English</a>
                             </div>
                         </div>
                     </li>
@@ -393,124 +393,152 @@
         </div>
     </header>
 
-    <!-- Main Content -->
+    <!-- 主页内容 -->
     <main id="home">
-        <!-- Hero Section -->
+        <!-- 英雄区域 -->
         <section class="hero">
             <div class="container">
-                <h1>Kuddle Technical Support</h1>
-                <p>Welcome to Kuddle Baby Care Assistant! We are committed to providing you and your baby with the best growth tracking and parenting support experience.</p>
-                <a href="#faq" class="btn">View FAQ</a>
+                <h1>Kuddle 技术支持</h1>
+                <p>欢迎使用Kuddle宝宝养育助手！我们致力于为您和宝宝提供最好的成长记录与育儿支持体验。</p>
+                <a href="#faq" class="btn">查看常见问题</a>
             </div>
         </section>
 
-        <!-- FAQ Section -->
+        <!-- 常见问题区域 -->
         <section id="faq" class="content-section">
             <div class="container">
-                <h2 class="section-title">Frequently Asked Questions</h2>
+                <h2 class="section-title">常见问题</h2>
                 <div class="faq-container">
                     <div class="faq-item">
                         <div class="faq-question">
-                            <span>How do I start using Kuddle to track my baby's daily activities?</span>
+                            <span>如何开始使用Kuddle记录宝宝日常？</span>
                             <i class="fas fa-chevron-down"></i>
                         </div>
                         <div class="faq-answer">
-                            <p>When you first open Kuddle, the system will guide you to create a baby profile, including name, birth date, and other information. After completing the setup, you can select the corresponding function modules on the main interface to record activities such as feeding, sleeping, and diaper changes.</p>
+                            <p>首次打开Kuddle后，系统会引导您创建宝宝档案，包括姓名、出生日期等信息。完成设置后，您可以在主界面选择相应的功能模块记录喂奶、睡眠、换尿布等活动。</p>
                         </div>
                     </div>
                     
                     <div class="faq-item">
                         <div class="faq-question">
-                            <span>How do I add multiple baby profiles?</span>
+                            <span>如何添加多个宝宝档案？</span>
                             <i class="fas fa-chevron-down"></i>
                         </div>
                         <div class="faq-answer">
-                            <p>Click the baby switch button on the app's main interface, then click the "Add Baby" button to add a new baby profile. Kuddle supports managing growth records for multiple babies simultaneously.</p>
+                            <p>在App主界面点击宝宝的切换按钮，点击"新增宝宝"按钮即可添加新的宝宝档案。Kuddle支持同时管理多个宝宝的成长记录。</p>
                         </div>
                     </div>
                     
                     <div class="faq-item">
                         <div class="faq-question">
-                            <span>Will data sync to other devices?</span>
+                            <span>数据会同步到其他设备吗？</span>
                             <i class="fas fa-chevron-down"></i>
                         </div>
                         <div class="faq-answer">
-                            <p>No. Currently, data is saved in your iCloud, but data synchronization is not yet supported. This feature will be developed in future updates.</p>
+                            <p>不会。目前数据是保存在您的iCloud中，但目前并未支持数据同步，该功能将在后续开发。</p>
                         </div>
                     </div>
                     
-                    <div class="faq-item">
+                    <!-- <div class="faq-item">
                         <div class="faq-question">
-                            <span>How do I export my baby's growth data?</span>
+                            <span>如何与家人共享宝宝记录？</span>
                             <i class="fas fa-chevron-down"></i>
                         </div>
                         <div class="faq-answer">
-                            <p>In the "Settings" menu, select the "Data Export" function to export your baby's growth records in CSV format for easy storage or sharing with pediatricians.</p>
+                            <p>在"家庭共享"功能中，您可以邀请家人加入，他们下载Kuddle后通过您分享的链接或代码即可加入家庭组，查看和更新宝宝的日常记录。</p>
+                        </div>
+                    </div> -->
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>如何导出宝宝的成长数据？</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>在"设置"菜单中，选择"数据导出"功能，您可以将宝宝的成长记录导出为CSV格式，方便保存或与儿科医生分享。</p>
                         </div>
                     </div>
+                    
+                    <!-- <div class="faq-item">
+                        <div class="faq-question">
+                            <span>忘记密码怎么办？</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>在登录页面点击"忘记密码"，按照提示输入您的注册邮箱，系统将发送重置密码的链接到您的邮箱。</p>
+                        </div>
+                    </div> -->
                 </div>
             </div>
         </section>
 
-        <!-- Contact Us Section -->
+        <!-- 联系我们区域 -->
         <section id="contact" class="content-section">
             <div class="container">
-                <h2 class="section-title">Contact Us</h2>
+                <h2 class="section-title">联系我们</h2>
                 <div class="contact-info">
                     <div class="contact-card">
                         <i class="fas fa-envelope"></i>
-                        <h3>Email Support</h3>
+                        <h3>邮箱支持</h3>
                         <p>support_kuddle@163.com</p>
-                        <p>We will respond to your email within 24 hours</p>
+                        <p>我们会在24小时内回复您的邮件</p>
                     </div>
+                    
+                    <!-- <div class="contact-card">
+                        <i class="fas fa-comment-dots"></i>
+                        <h3>反馈与建议</h3>
+                        <p>feedback@kuddle-app.com</p>
+                        <p>欢迎您提出宝贵意见，帮助我们改进</p>
+                    </div> -->
                     
                     <div class="contact-card">
                         <i class="fas fa-shield-alt"></i>
-                        <h3>Privacy & Security</h3>
+                        <h3>隐私与安全</h3>
                         <p>privacy_kuddle@163.com</p>
-                        <p>For inquiries regarding data security and privacy</p>
+                        <p>有关数据安全和隐私问题的咨询</p>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- Footer -->
+    <!-- 页脚 -->
     <footer>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
                     <h3>Kuddle</h3>
-                    <p>Professional baby growth tracking and parenting assistant, making parenting easier and more scientific.</p>
+                    <p>专业的宝宝成长记录与育儿助手，让育儿更轻松、更科学。</p>
                 </div>
                 
                 <div class="footer-column">
-                    <h3>Quick Links</h3>
+                    <h3>快速链接</h3>
                     <ul class="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#faq">常见问题</a></li>
+                        <li><a href="#contact">联系我们</a></li>
+                        <li><a href="privacy.html">隐私政策</a></li>
+                        <li><a href="terms.html">用户协议</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-column">
-                    <h3>Download App</h3>
+                    <h3>下载应用</h3>
                     <ul class="footer-links">
                         <li><a href="#">App Store</a></li>
+                        <!-- <li><a href="#">Google Play</a></li> -->
                     </ul>
                 </div>
             </div>
             
             <div class="copyright">
-                <p>&copy; 2025 Kuddle Baby Care Assistant. All rights reserved.</p>
+                <p>&copy; 2025 Kuddle 宝宝养育助手. 保留所有权利.</p>
             </div>
         </div>
     </footer>
 
     <script>
-        // FAQ Interaction Functionality
+        // FAQ交互功能
         document.querySelectorAll('.faq-question').forEach(question => {
             question.addEventListener('click', () => {
                 const item = question.parentNode;
@@ -518,13 +546,13 @@
             });
         });
         
-        // Auto-detect user language and prompt
+        // 自动检测用户语言并提示
         document.addEventListener('DOMContentLoaded', function() {
             const userLang = navigator.language || navigator.userLanguage;
-            if (userLang.startsWith('zh') && !window.location.pathname.includes('/en/')) {
-                // If Chinese user and not on Chinese page, can show prompt
-                console.log('Chinese user detected. You might want to redirect to Chinese version.');
-                // Can add a prompt banner here suggesting user switch to Chinese version
+            if (userLang.startsWith('en') && !window.location.pathname.includes('/en/')) {
+                // 如果是英文用户且不在英文页面，可以显示提示
+                console.log('English user detected. You might want to redirect to English version.');
+                // 可以在这里添加一个提示横幅，建议用户切换到英文版本
             }
         });
     </script>
